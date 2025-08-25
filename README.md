@@ -212,15 +212,15 @@ OTO JANI NA ...
 ## Team Members and Contributors
 
 1. Srijan Bhattacharyya [![Team Leader](https://img.shields.io/badge/Team%20Leader-ff0000?style=plastic)]()
-2. Arijit Ghosh [![Member](https://img.shields.io/badge/Member-ff0000?style=plastic)]()
-3. Kushal Biswas [![Member](https://img.shields.io/badge/Member-ff0000?style=plastic)]()
-4. Pukar Sharma [![Member](https://img.shields.io/badge/Member-ff0000?style=plastic)]()
-5. Jhumki Barman [![External Member](https://img.shields.io/badge/External%20Member-ff0000?style=plastic)]()
+2. Arijit Ghosh [![Member](https://img.shields.io/badge/Member-00ff00?style=plastic)]()
+3. Kushal Biswas [![Member](https://img.shields.io/badge/Member-00ff00?style=plastic)]()
+4. Pukar Sharma [![Member](https://img.shields.io/badge/Member-00ff00?style=plastic)]()
+5. Jhumki Barman [![External Member](https://img.shields.io/badge/External%20Member-0000ff?style=plastic)]()
 
 ## Mentors
 
 1. Dr. Utsa Roy [![Mentor](https://img.shields.io/badge/Mentor-ff0000?style=plastic)]()
-2. Dr. Monojit Chattarjee [![External Mentor](https://img.shields.io/badge/External%20Mentor-ff0000?style=plastic)]()
+2. Dr. Monojit Chattarjee [![External Mentor](https://img.shields.io/badge/External%20Mentor-0000ff?style=plastic)]()
 
 ## Bibliography ....
 
