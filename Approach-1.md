@@ -7,7 +7,7 @@
 
 ## Wheel Of Emotions by Robert Plutchik
 
-![Wheel of Emotions by Robert Plutchik](assets\imgs\approach-1\Wheel%20Of%20Emotions.webp)
+![Wheel of Emotions by Robert Plutchik](assets/imgs/approach-1/Wheel%20Of%20Emotions.webp)
 
 <!-- https://gemini.google.com/app/6b62ac670317a55f -->
 
@@ -136,3 +136,4 @@ Constant Universal Map\*\*: The established emotional map remains constant acros
 ## Acknowledgements
 
 ...
+
