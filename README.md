@@ -35,10 +35,11 @@ The **JAST Approach** is fundamentally an exercise in **Affective Computing**, s
 1.  **Multi-dimensional Affective Space**: Our emotional model is built upon **Robert Plutchik's psychoevolutionary theory of emotion**, which posits that emotions are not discrete states but exist in a wheel with varying intensities and a limited number of primary dimensions. Mapping text onto a continuous, multi-dimensional space moves beyond the categorical limitations of traditional models, allowing for the representation of mixed and nuanced emotional states.
 2.  **Self-Supervised Learning (SSL)**: The core of the system’s initial learning is SSL, a cornerstone of modern **Large Language Models (LLMs)** like **BERT**. By training a model to understand the structure and context of text on a massive unlabeled corpus, we generate high-quality vector representations, which form the basis of the emotional mapping.
 3.  **Core Emotion Dimensions**: The model is based on four bi-polar dimensions:
-    _ **Joy - Sadness**
-    _ **Anger - Fear**
-    _ **Surprise - Anticipation**
-    _ **Trust - Disgust**
+
+- **Joy - Sadness**
+- **Anger - Fear**
+- **Surprise - Anticipation**
+- **Trust - Disgust**
 
 <div align="center">
   <img src="imgs\WheelOfEmotions.webp" alt="Image of Plutchik's Wheel of Emotions" width="80%">
