@@ -37,7 +37,7 @@ The **JAST Approach** is fundamentally an exercise in **Affective Computing**, s
     _ **Trust - Disgust**
 
 <div align="center">
-  <img src="imgs\WheelOfEmotions.webp" alt="Image of Plutchik's Wheel of Emotions" width="50%">
+  <img src="imgs\WheelOfEmotions.webp" alt="Image of Plutchik's Wheel of Emotions" width="80%">
 </div>
 
 ## Systemic Blueprint for Dual-Layer Processing
