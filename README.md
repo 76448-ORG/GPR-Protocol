@@ -58,7 +58,9 @@ The architecture is split into an **Internal Core Processing Layer** and an **Ex
 ### 2\. Social Interface Layer (External)
 
 - **Affective Mimicry Policy ($\pi_{\text{affect}}$):** A trained model outputting calibrated, performative **emotional expression ($\mathcal{E}_{\text{exp}}$)** based on social observation.
-  $$\mathcal{E}_{\text{exp}} \leftarrow \pi_{\text{affect}}(\text{Obs}_{\text{Social}})$$
+
+$$\mathcal{E}_{\text{exp}} \leftarrow \pi_{\text{affect}}(\text{Obs}_{\text{Social}})$$
+
 - **Reward Signal:** The reward is based on **utilitarian outcome** (e.g., resource gain, successful manipulation) that supports the Core Objective ($\mathcal{J}$), rather than intrinsic feeling.
 
 ### 3\. OS-like Dual-Translation Mechanism
