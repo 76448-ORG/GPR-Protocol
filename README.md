@@ -2,7 +2,11 @@
 
 ## Problem Statement
 
-The primary limitation of contemporary **Affective Computing** systems is their dependence on **categorical emotion models** and **static training regimes**, causing them to fail in representing the **nuanced, mixed-affective states** of human communication. Specifically, current models suffer from: a) **Dimensional Inexpressivity**, limiting emotional output to predefined labels instead of a continuous spectrum; b) **Adaptation Rigidity**, preventing real-time alignment with evolving linguistic and social contexts; and c) **Catastrophic Forgetting**, where learning new emotional concepts overwrites proficiency in old ones, hindering stable **Continual Learning**.
+The primary limitation of contemporary **Affective Computing** systems is their dependence on **categorical emotion models** and **static training regimes**, causing them to fail in representing the **nuanced, mixed-affective states** of human communication. Specifically, current models suffer from:
+
+1. **Dimensional Inexpressivity**, limiting emotional output to predefined labels instead of a continuous spectrum;
+2. **Adaptation Rigidity**, preventing real-time alignment with evolving linguistic and social contexts;
+3. **Catastrophic Forgetting**, where learning new emotional concepts overwrites proficiency in old ones, hindering stable **Continual Learning**.
 
 ## Objective/Goal
 
@@ -10,7 +14,7 @@ The goal is to engineer the **Generative & Programmable Response Protocol (GPR-P
 
 This OS-like function requires the system to:
 
-1.  **Decompose User Input:** Accurately map textual/audio input into two distinct signals: the **Logical Query ($\mathcal{S}'$)** and a continuous **JAST-V Emotional Vector** ($\in [-100, +100]$).
+1.  **Decompose User Input:** Accurately map textual/audio input into two distinct signals: the **Logical Query ($\mathcal{S}'$)** and a continuous **JAST-V Emotional Vector** ($\in [-100.00, +100.00]$).
 2.  **Achieve Emotive Parity:** Synthesize the raw, logical output from the AI API with an emotionally congruent response layer to ensure the user perceives a conversation with a human-like entity.
 3.  **Ensure Adaptability:** Employ a **Human-in-the-Loop (HITL)** framework and **Elastic Weight Consolidation (EWC)** to enable indefinite, stable knowledge acquisition and real-time social alignment.
 
@@ -37,7 +41,7 @@ The **JAST Approach** is fundamentally an exercise in **Affective Computing**, s
     _ **Trust - Disgust**
 
 <div align="center">
-  <img src="imgs\WheelOfEmotions.webp" alt="Image of Plutchik's Wheel of Emotions" width="80%">
+  <img src="imgs\WheelOfEmotions.webp" alt="Image of Plutchik's Wheel of Emotions" width="50%">
 </div>
 
 ## Systemic Blueprint for Dual-Layer Processing
@@ -72,8 +76,8 @@ The emotional vector generation relies on two main modules:
 
 - **Module I: E-Token Feature Extractor**: A **Transformer-based model** (e.g., **XLM-RoBERTa**) extracts the contextualized semantic representation, resulting in a high-dimensional **E-Token feature vector**.
 - **Module II: JAST-V Projection Head**: This head maps the E-Token feature vector onto the four bi-polar emotional dimensions.
-  - **Output (JAST-V Coordinates):** A 4D vector $\in [-100, +100]$ representing: $$[\text{Joy/Sadness}, \text{Anger/Fear}, \text{Surprise/Anticipation}, \text{Trust/Disgust}]$$
-  - **Implementation:** A fully connected layer utilizing the **Hyperbolic Tangent ($\tanh$)** activation function on the final layer to enforce the $\mathbf{[-100, +100]}$ range.
+  - **Output (JAST-V Coordinates):** A 4D vector $\in [-100.00, +100.00]$ representing: $$[\text{Joy/Sadness}, \text{Anger/Fear}, \text{Surprise/Anticipation}, \text{Trust/Disgust}]$$
+  - **Implementation:** A fully connected layer utilizing the **Hyperbolic Tangent ($\tanh$)** activation function on the final layer to enforce the $\mathbf{[-100.00, +100.00]}$ range.
 
 ### 5\. Continual Policy Training (Human-in-the-Loop)
 
