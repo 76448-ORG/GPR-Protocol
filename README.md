@@ -67,11 +67,11 @@ $$\mathcal{E}_{\text{exp}} \leftarrow \pi_{\text{affect}}(\text{Obs}_{\text{Soci
 
 The GPR-Protocol acts as the **Emotive Intermediary** between the user and the LLM API, performing a two-way emotional/logical translation:
 
-| Stage                  | Action                | Input                                                     | Output                                                                      | Purpose                                           |
-| :--------------------- | :-------------------- | :-------------------------------------------------------- | :-------------------------------------------------------------------------- | :------------------------------------------------ |
-| **Input Translation**  | **Decomposition**     | User Input (Text/Audio)                                   | **1. Logical Content ($\mathcal{S}'$)**<br>**2. Emotional Vector (JAST-V)** | Decouples command from context for the API.       |
-| **LLM Processing**     | **API Call**          | $\mathcal{S}'$ + JAST-V (Context)                         | **Raw Logical Response ($\mathcal{R}_{\text{raw}}$)**                       | Generates core factual/functional answer.         |
-| **Output Translation** | **Emotive Synthesis** | $\mathcal{R}_{\text{raw}}$ + $\pi_{\text{affect}}$ Policy | **Final Enhanced Response ($\mathcal{R}_{\text{final}}$)**                  | Inject human-like emotion to ensure $\text{OSI}$. |
+| Stage                  | Action                | Input                                                   | Output                                                                      | Purpose                                           |
+| :--------------------- | :-------------------- | :------------------------------------------------------ | :-------------------------------------------------------------------------- | :------------------------------------------------ |
+| **Input Translation**  | **Decomposition**     | User Input (Text/Audio)                                 | **1. Logical Content ($\mathcal{S}'$)**<br>**2. Emotional Vector (JAST-V)** | Decouples command from context for the API.       |
+| **LLM Processing**     | **API Call**          | $\mathcal{S}'$ + JAST-V (Context)                       | **Raw Logical Response ($\mathcal{R}_{\text{raw}}$)**                       | Generates core factual/functional answer.         |
+| **Output Translation** | **Emotive Synthesis** | $\mathcal{R}_{\text{raw}} + \pi_{\text{affect}}$ Policy | **Final Enhanced Response ($\mathcal{R}_{\text{final}}$)**                  | Inject human-like emotion to ensure $\text{OSI}$. |
 
 ### 4\. JAST-V Model Architecture
 
