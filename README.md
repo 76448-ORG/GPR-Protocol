@@ -1,5 +1,22 @@
 # GPR-Framework:<br>Generative & Programmable Response Framework
 
+<hr style="border: 1px solid black;">
+
+## ToC - Table of Contents
+
+1. [Project Problem Statement](#problem-statement)
+2. [Project Objective and Goal](#objectivegoal)
+3. [Project Description](#description)
+4. [Conceptual and Theoretical Foundations](#conceptual-and-theoretical-foundations)
+5. [Systemic Blueprint for Dual-Layer Processing](#systemic-blueprint-for-dual-layer-processing)
+6. [Decision Tree](#tree-description)
+7. [](#)
+8. [](#)
+9. [Team Members, Contributors and Mentors](#team-members-and-contributors)
+10. [Bibliography and Acknowledgements](#bibliography)
+
+<hr style="border: 1px solid black;">
+
 ## Problem Statement
 
 The primary limitation of contemporary **Affective Computing** systems is their dependence on **categorical emotion models** and **static training regimes**, causing them to fail in representing the **nuanced, mixed-affective states** of human communication. Specifically, current models suffer from:
@@ -18,6 +35,8 @@ This OS-like function requires the system to:
 2. **Achieve Emotive Parity:** Synthesize the raw, logical output from the AI API with an emotionally congruent response layer to ensure the user perceives a conversation with a human-like entity.
 3. **Ensure Adaptability:** Employ a **Human-in-the-Loop (HITL)** framework and **Elastic Weight Consolidation (EWC)** to enable indefinite, stable knowledge acquisition and real-time social alignment.
 
+<hr style="border: 1px solid black;">
+
 ## Description
 
 The **Generative & Programmable Response Framework (GPR-Framework)**, built upon the **JAST Emotional AI Framework**, functions as an **Emotional Operating System (OS)** that controls the flow of communication between a human user and a commercial AI API. This OS role involves a **Dual-Translation Emotive Bridge** process:
@@ -27,6 +46,8 @@ The **Generative & Programmable Response Framework (GPR-Framework)**, built upon
 2. **Output Translation (API $\rightarrow$ User):** It takes the raw, logical output from the API, passes it through its own **Affective Mimicry Policy ($\pi_{\text{affect}}$)**, and injects a contextually appropriate emotional layer. This final, emotively enhanced response is presented to the user, successfully simulating the conversational cadence and affective dynamics of a regular human being.
 
 This active refinement, guided by your **Preference Signals** in a process analogous to **RLHF**, allows the AI to dynamically discover and integrate nuanced emotional concepts specific to your linguistic style while maintaining a logical service layer via the LLM API.
+
+<hr style="border: 1px solid black;">
 
 ## Conceptual and Theoretical Foundations
 
@@ -44,6 +65,8 @@ The **JAST Approach** is fundamentally an exercise in **Affective Computing**, s
 <div align="center">
   <img src="imgs\WheelOfEmotions.webp" alt="Image of Plutchik's Wheel of Emotions" width="80%">
 </div>
+
+<hr style="border: 1px solid black;">
 
 ## Systemic Blueprint for Dual-Layer Processing
 
@@ -67,10 +90,10 @@ $$\mathcal{E}_{\text{exp}} \leftarrow \pi_{\text{affect}}(\text{Obs}_{\text{Soci
 
 The GPR-Framework acts as the **Emotive Intermediary** between the user and the LLM API, performing a two-way emotional/logical translation:
 
-| Stage                  | Action                 | Input                  | Output                 | Purpose                |
-| :--------------------- | :--------------------- | :--------------------- | :--------------------- | :--------------------- |
-| **Input Translation**  | **Decomposition**     | User Input (Text/Audio)                                   | **1. Logical Content ($\mathcal{S}'$)**<br>**2. Emotional Vector (JAST-V)** | Decouples command from context for the API.       |
-| **LLM Processing**     | **API Call**          | $\mathcal{S}'$ + JAST-V (Context)                         | **Raw Logical Response ($\mathcal{R}_{\text{raw}}$)**                       | Generates core factual/functional answer.         |
+| Stage                  | Action                | Input                                       | Output                                                                      | Purpose                                           |
+| :--------------------- | :-------------------- | :------------------------------------------ | :-------------------------------------------------------------------------- | :------------------------------------------------ |
+| **Input Translation**  | **Decomposition**     | User Input (Text/Audio)                     | **1. Logical Content ($\mathcal{S}'$)**<br>**2. Emotional Vector (JAST-V)** | Decouples command from context for the API.       |
+| **LLM Processing**     | **API Call**          | $\mathcal{S}'$ + JAST-V (Context)           | **Raw Logical Response ($\mathcal{R}_{\text{raw}}$)**                       | Generates core factual/functional answer.         |
 | **Output Translation** | **Emotive Synthesis** | $\mathcal{R}_{raw}$ + $\pi_{affect}$ Policy | **Final Enhanced Response ($\mathcal{R}_{\text{final}}$)**                  | Inject human-like emotion to ensure $\text{OSI}$. |
 
 ### 4\. JAST-V Model Architecture
@@ -90,6 +113,14 @@ The mechanism for refining the $\pi_{\text{affect}}$ policy post-deployment:
 - **Training Technique:** This preference data fine-tunes the $\pi_{\text{affect}}$ model using **Reinforcement Learning from Human Preferences (RLHF)**.
 - **Memory Management:** **Continual Learning** techniques, such as **Elastic Weight Consolidation (EWC)**, are integrated to retain proficiency across all contexts and prevent **Catastrophic Forgetting**.
 
+<hr style="border: 1px solid black;">
+
+## Tree Description
+
+will be added soon ...
+
+<hr style="border: 1px solid black;">
+
 ## Team Members and Contributors
 
 1. Srijan Bhattacharyya [![Team Leader](https://img.shields.io/badge/Team%20Leader-00ff00?style=plastic)]()
@@ -102,6 +133,8 @@ The mechanism for refining the $\pi_{\text{affect}}$ policy post-deployment:
 
 1. Dr. Utsa Roy [![Mentor](https://img.shields.io/badge/Mentor-00000ff?style=plastic)]()
 2. Dr. Monojit Chattarjee [![External Mentor](https://img.shields.io/badge/External%20Mentor-0000ff?style=plastic)]()
+
+<hr style="border: 1px solid black;">
 
 ## Bibliography
 
