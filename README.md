@@ -1,6 +1,6 @@
 # GPR-Framework:<br>Generative & Programmable Response Framework
 
-<hr style="border: 1px solid black;">
+<div style="page-break-after: always;"></div>
 
 ## ToC - Table of Contents
 
@@ -15,7 +15,7 @@
 9. [Team Members, Contributors and Mentors](#team-members-and-contributors)
 10. [Bibliography and Acknowledgements](#bibliography)
 
-<hr style="border: 1px solid black;">
+<div style="page-break-after: always;"></div>
 
 ## Problem Statement
 
@@ -35,7 +35,7 @@ This OS-like function requires the system to:
 2. **Achieve Emotive Parity:** Synthesize the raw, logical output from the AI API with an emotionally congruent response layer to ensure the user perceives a conversation with a human-like entity.
 3. **Ensure Adaptability:** Employ a **Human-in-the-Loop (HITL)** framework and **Elastic Weight Consolidation (EWC)** to enable indefinite, stable knowledge acquisition and real-time social alignment.
 
-<hr style="border: 1px solid black;">
+<div style="page-break-after: always;"></div>
 
 ## Description
 
@@ -47,7 +47,7 @@ The **Generative & Programmable Response Framework (GPR-Framework)**, built upon
 
 This active refinement, guided by your **Preference Signals** in a process analogous to **RLHF**, allows the AI to dynamically discover and integrate nuanced emotional concepts specific to your linguistic style while maintaining a logical service layer via the LLM API.
 
-<hr style="border: 1px solid black;">
+<div style="page-break-after: always;"></div>
 
 ## Conceptual and Theoretical Foundations
 
@@ -66,7 +66,7 @@ The **JAST Approach** is fundamentally an exercise in **Affective Computing**, s
   <img src="imgs\WheelOfEmotions.webp" alt="Image of Plutchik's Wheel of Emotions" width="80%">
 </div>
 
-<hr style="border: 1px solid black;">
+<div style="page-break-after: always;"></div>
 
 ## Systemic Blueprint for Dual-Layer Processing
 
@@ -113,13 +113,13 @@ The mechanism for refining the $\pi_{\text{affect}}$ policy post-deployment:
 - **Training Technique:** This preference data fine-tunes the $\pi_{\text{affect}}$ model using **Reinforcement Learning from Human Preferences (RLHF)**.
 - **Memory Management:** **Continual Learning** techniques, such as **Elastic Weight Consolidation (EWC)**, are integrated to retain proficiency across all contexts and prevent **Catastrophic Forgetting**.
 
-<hr style="border: 1px solid black;">
+<div style="page-break-after: always;"></div>
 
 ## Tree Description
 
 will be added soon ...
 
-<hr style="border: 1px solid black;">
+<div style="page-break-after: always;"></div>
 
 ## Team Members and Contributors
 
@@ -134,7 +134,7 @@ will be added soon ...
 1. Dr. Utsa Roy [![Mentor](https://img.shields.io/badge/Mentor-00000ff?style=plastic)]()
 2. Dr. Monojit Chattarjee [![External Mentor](https://img.shields.io/badge/External%20Mentor-0000ff?style=plastic)]()
 
-<hr style="border: 1px solid black;">
+<div style="page-break-after: always;"></div>
 
 ## Bibliography
 
