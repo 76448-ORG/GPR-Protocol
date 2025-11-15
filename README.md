@@ -10,7 +10,6 @@ The entire protocol operates under a **Human-in-the-Loop (HITL)** paradigm, acti
 - **Guidance:** Human trainers provide real-time corrective feedback and assign new labels for complex or abstract emotional concepts.
 - **Adaptation:** **Continual Learning (CL)** algorithms, such as **Elastic Weight Consolidation (EWC)**, efficiently update the universal emotional map based on this feedback, dynamically creating new emotional regions and vectors without suffering from catastrophic forgetting.
 
-
 <div style="page-break-after: always;"></div>
 
 ## ToC - Table of Contents
@@ -141,10 +140,10 @@ graph LR;
     J["Affective Mimicry Policy ($\pi_{\text{affect}}$) | Trained with RLHF/EWC"] --> I;
     I --> K["Final Enhanced Response ($\mathcal{R}_{\text{final}}$) | Emotive Synthesis"];
     K --> L["User Perception (Optimal Social Integration - OSI)"];
-    style A fill:#f9f,stroke:#333
-    style L fill:#f9f,stroke:#333
-    style J fill:#ccc,stroke:#333
-    style G fill:#ccf,stroke:#333
+    style A fill:#f9f,stroke:#000
+    style L fill:#f9f,stroke:#000
+    style J fill:#ccc,stroke:#000
+    style G fill:#ccf,stroke:#000
 ```
 
 ### JAST-V Model Architecture
@@ -160,8 +159,8 @@ graph LR;
     G --> H["Hyperbolic Tangent ($\tanh$) Activation"];
     H --> I["JAST-V 4D Vector | $\in [-100.00, +100.00]$"];
     I --> J{"JAST-V Coordinates: [Joy/Sadness, Anger/Fear, Surprise/Anticipation, Trust/Disgust]"};
-    style A fill:#f9f,stroke:#333
-    style J fill:#f9f,stroke:#333
+    style A fill:#f9f,stroke:#000
+    style J fill:#f9f,stroke:#000
 ```
 
 ### Continual Learning & Adaptation
@@ -176,8 +175,8 @@ graph LR;
     F --> G["Policy Refinement ($\pi_{\text{affect}}$) via RLHF"];
     F --> H["Memory Management | Elastic Weight Consolidation (EWC)"];
     G & H --> A;
-    style A fill:#ffc,stroke:#333
-    style D fill:#cff,stroke:#333
+    style A fill:#ffc,stroke:#000
+    style D fill:#cff,stroke:#000
 ```
 
 <div style="page-break-after: always;"></div>
