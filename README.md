@@ -19,7 +19,7 @@ The entire protocol operates under a **Human-in-the-Loop (HITL)** paradigm, acti
 3. [Project Description](#description)
 4. [Conceptual and Theoretical Foundations](#conceptual-and-theoretical-foundations)
 5. [Systemic Blueprint for Dual-Layer Processing](#systemic-blueprint-for-dual-layer-processing)
-6. [Decision Tree](#tree-description)
+6. [Graphical Representation](#tree-description)
 7. [Team Members, Contributors and Mentors](#team-members-and-contributors)
 8. [Bibliography and Acknowledgements](#bibliography)
 
