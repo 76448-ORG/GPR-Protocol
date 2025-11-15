@@ -128,18 +128,19 @@ The mechanism for refining the $\pi_{\text{affect}}$ policy post-deployment:
 
 ### GPR-Framework: System Flow
 
-```graph LR
-    A[User Input (Text/Audio)] --> B{GPR-Framework - Input Translation};
-    B --> C(Module I: E-Token Feature Extractor | Transformer-based Model);
-    C --> D(Module II: JAST-V Projection Head | Maps E-Token to 4D Vector);
-    D --> E[JAST-V Emotional Vector: J/S, A/F, S/A, T/D];
-    B --> F[Logical Content ($\mathcal{S}'$)];
-    F & E --> G[LLM Processing | API Call (e.g., Gemini)];
-    G --> H[Raw Logical Response ($\mathcal{R}_{raw}$)];
-    H --> I{GPR-Framework - Output Translation};
-    J[Affective Mimicry Policy ($\pi_{\text{affect}}$) | Trained with RLHF/EWC] --> I;
-    I --> K[Final Enhanced Response ($\mathcal{R}_{\text{final}}$) | Emotive Synthesis];
-    K --> L[User Perception (Optimal Social Integration - OSI)];
+```mermaid
+graph LR;
+    A["User Input (Text/Audio)"] --> B{"GPR-Framework - Input Translation"};
+    B --> C("Module I: E-Token Feature Extractor | Transformer-based Model");
+    C --> D("Module II: JAST-V Projection Head | Maps E-Token to 4D Vector");
+    D --> E["JAST-V Emotional Vector: J/S, A/F, S/A, T/D"];
+    B --> F["Logical Content ($\mathcal{S}'$)"];
+    F & E --> G["LLM Processing | API Call (e.g., Gemini)"];
+    G --> H["Raw Logical Response ($\mathcal{R}_{raw}$)"];
+    H --> I{"GPR-Framework - Output Translation"};
+    J["Affective Mimicry Policy ($\pi_{\text{affect}}$) | Trained with RLHF/EWC"] --> I;
+    I --> K["Final Enhanced Response ($\mathcal{R}_{\text{final}}$) | Emotive Synthesis"];
+    K --> L["User Perception (Optimal Social Integration - OSI)"];
     style A fill:#f9f,stroke:#333
     style L fill:#f9f,stroke:#333
     style J fill:#ccc,stroke:#333
@@ -148,30 +149,32 @@ The mechanism for refining the $\pi_{\text{affect}}$ policy post-deployment:
 
 ### JAST-V Model Architecture
 
-```graph LR
-    A[Sensory Input (Text/Audio)] --> B{Rational Filtering Module ($\mathcal{F}$)}
-    B --> C[Logical Content ($\mathcal{S}'$) - Decoupled]
-    B --> D[Contextualized Semantic Input]
-    D --> E[Module I: E-Token Feature Extractor | XLM-RoBERTa Transformer];
-    E --> F[E-Token Feature Vector (High-Dimensional)];
-    F --> G[Module II: JAST-V Projection Head | Fully Connected Layer];
-    G --> H[Hyperbolic Tangent ($\tanh$) Activation];
-    H --> I[JAST-V 4D Vector | $\in [-100.00, +100.00]$];
-    I --> J{JAST-V Coordinates: [Joy/Sadness, Anger/Fear, Surprise/Anticipation, Trust/Disgust]};
+```mermaid
+graph LR;
+    A["Sensory Input (Text/Audio)"] --> B{"Rational Filtering Module ($\mathcal{F}$)"}
+    B --> C["Logical Content ($\mathcal{S}'$) - Decoupled"]
+    B --> D["Contextualized Semantic Input"]
+    D --> E["Module I: E-Token Feature Extractor | XLM-RoBERTa Transformer"];
+    E --> F["E-Token Feature Vector (High-Dimensional)"];
+    F --> G["Module II: JAST-V Projection Head | Fully Connected Layer"];
+    G --> H["Hyperbolic Tangent ($\tanh$) Activation"];
+    H --> I["JAST-V 4D Vector | $\in [-100.00, +100.00]$"];
+    I --> J{"JAST-V Coordinates: [Joy/Sadness, Anger/Fear, Surprise/Anticipation, Trust/Disgust]"};
     style A fill:#f9f,stroke:#333
     style J fill:#f9f,stroke:#333
 ```
 
 ### Continual Learning & Adaptation
 
-```graph LR
-    A[JAST Vector Space | Multidimensional Emotional Map] --> B{Discovery | Novelty Detection};
-    B --> C{Novel Input Detected | Outside Known Clusters};
-    C --> D[Human Trainers];
-    D --> E[Guidance | Real-time Corrective Feedback & New Labels];
-    E --> F[Adaptation | Continual Learning (CL) Algorithms];
-    F --> G[Policy Refinement ($\pi_{\text{affect}}$) via RLHF];
-    F --> H[Memory Management | Elastic Weight Consolidation (EWC)];
+```mermaid
+graph LR;
+    A["JAST Vector Space | Multidimensional Emotional Map"] --> B{"Discovery | Novelty Detection"};
+    B --> C{"Novel Input Detected | Outside Known Clusters"};
+    C --> D["Human Trainers"];
+    D --> E["Guidance | Real-time Corrective Feedback & New Labels"];
+    E --> F["Adaptation | Continual Learning (CL) Algorithms"];
+    F --> G["Policy Refinement ($\pi_{\text{affect}}$) via RLHF"];
+    F --> H["Memory Management | Elastic Weight Consolidation (EWC)"];
     G & H --> A;
     style A fill:#ffc,stroke:#333
     style D fill:#cff,stroke:#333
