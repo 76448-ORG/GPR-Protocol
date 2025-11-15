@@ -133,12 +133,12 @@ graph LR;
     B --> C("Module I: E-Token Feature Extractor | Transformer-based Model");
     C --> D("Module II: JAST-V Projection Head | Maps E-Token to 4D Vector");
     D --> E["JAST-V Emotional Vector: J/S, A/F, S/A, T/D"];
-    B --> F["Logical Content ($\mathcal{S}'$)"];
+    B --> F["Logical Content (_S'_)"];
     F & E --> G["LLM Processing | API Call (e.g., Gemini)"];
-    G --> H["Raw Logical Response ($\mathcal{R}_{raw}$)"];
+    G --> H["Raw Logical Response (R _raw_)"];
     H --> I{"GPR-Framework - Output Translation"};
-    J["Affective Mimicry Policy ($\pi_{\text{affect}}$) | Trained with RLHF/EWC"] --> I;
-    I --> K["Final Enhanced Response ($\mathcal{R}_{\text{final}}$) | Emotive Synthesis"];
+    J["Affective Mimicry Policy (π _affect_) | Trained with RLHF/EWC"] --> I;
+    I --> K["Final Enhanced Response (R _final_) | Emotive Synthesis"];
     K --> L["User Perception (Optimal Social Integration - OSI)"];
 ```
 
@@ -146,14 +146,14 @@ graph LR;
 
 ```mermaid
 graph LR;
-    A["Sensory Input (Text/Audio)"] --> B{"Rational Filtering Module ($\mathcal{F}$)"}
-    B --> C["Logical Content ($\mathcal{S}'$) - Decoupled"]
+    A["Sensory Input (Text/Audio)"] --> B{"Rational Filtering Module (_F_)"}
+    B --> C["Logical Content (_S'_) - Decoupled"]
     B --> D["Contextualized Semantic Input"]
     D --> E["Module I: E-Token Feature Extractor | XLM-RoBERTa Transformer"];
     E --> F["E-Token Feature Vector (High-Dimensional)"];
     F --> G["Module II: JAST-V Projection Head | Fully Connected Layer"];
-    G --> H["Hyperbolic Tangent ($\tanh$) Activation"];
-    H --> I["JAST-V 4D Vector | $\in [-100.00, +100.00]$"];
+    G --> H["Hyperbolic Tangent (_tanh_) Activation"];
+    H --> I["JAST-V 4D Vector | _∈ [-100.00, +100.00]_"];
     I --> J{"JAST-V Coordinates: [Joy/Sadness, Anger/Fear, Surprise/Anticipation, Trust/Disgust]"};
 ```
 
@@ -166,7 +166,7 @@ graph LR;
     C --> D["Human Trainers"];
     D --> E["Guidance | Real-time Corrective Feedback & New Labels"];
     E --> F["Adaptation | Continual Learning (CL) Algorithms"];
-    F --> G["Policy Refinement ($\pi_{\text{affect}}$) via RLHF"];
+    F --> G["Policy Refinement (π _affect_) via RLHF"];
     F --> H["Memory Management | Elastic Weight Consolidation (EWC)"];
     G & H --> A;
 ```
