@@ -179,7 +179,8 @@ graph LR;
 2. Arijit Ghosh [![Member](https://img.shields.io/badge/Member-00ff00?style=plastic)]()
 3. Kushal Biswas [![Member](https://img.shields.io/badge/Member-00ff00?style=plastic)]()
 4. Pukar Sharma [![Member](https://img.shields.io/badge/Member-00ff00?style=plastic)]()
-5. Jhumki Barman [![External Member](https://img.shields.io/badge/External%20Member-0000ff?style=plastic)]()
+5. Mojammil Ansari [![Member](https://img.shields.io/badge/Member-00ff00?style=plastic)]()
+6. Jhumki Barman [![External Member](https://img.shields.io/badge/External%20Member-0000ff?style=plastic)]()
 
 ## Mentors
 
